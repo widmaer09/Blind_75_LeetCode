@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Main {
+public class containsDuplicate {
 
     public static boolean containsDuplicate(int[] nums) {
         Set<Integer> allValues = new HashSet<>();
