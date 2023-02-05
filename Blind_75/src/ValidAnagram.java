@@ -26,6 +26,8 @@ public class ValidAnagram {
         HashMap<Character, Integer> map2 = new HashMap<>();
         countValues(s, map);
         countValues(t, map2);
+        System.out.println(map);
+        System.out.println(map2);
 
 
         if (map.equals(map2)) {
